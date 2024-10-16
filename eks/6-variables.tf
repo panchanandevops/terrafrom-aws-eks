@@ -60,7 +60,6 @@ variable "node_groups" {
         max_size     = 10
         min_size     = 0
       }
-      max_unavailable = 1
     }
   }
 }
