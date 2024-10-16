@@ -18,7 +18,7 @@ resource "aws_eks_node_group" "this" {
   }
 
   update_config {
-    max_unavailable = each.value.max_unavailable
+    max_unavailable = 1
   }
 
   labels = {
