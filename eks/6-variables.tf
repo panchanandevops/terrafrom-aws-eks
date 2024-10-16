@@ -60,9 +60,7 @@ variable "node_groups" {
         max_size     = 10
         min_size     = 0
       }
-      update_config = {
-        max_unavailable = 1
-      }
+      max_unavailable = 1
     }
   }
 }
